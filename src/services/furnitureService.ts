@@ -1,9 +1,9 @@
 // src/services/furnitureService.ts
 import axios from 'axios';
-import { FurnitureDTO } from '../types/furniture';
+import type { FurnitureDTO } from '../types/furniture';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:8080',
+  baseURL:  'http://localhost:8080', // process.env.REACT_APP_API_URL ||
 });
 
 export const getFurnitureByStyle = async (
