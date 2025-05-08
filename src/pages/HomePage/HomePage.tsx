@@ -121,7 +121,7 @@ const HomePage: React.FC = () => {
     <div className={styles.homepageContainer}>
       <header className={styles.header}>
         <h1 className={styles.title}>Furniture Catalog</h1>
-        <button className={styles.cartButton} onClick={() => navigate('/ordenar')}>
+        <button className={styles.cartButton} onClick={() => navigate('/order')}>
           Cart 🛒
         </button>
       </header>
@@ -143,6 +143,11 @@ const HomePage: React.FC = () => {
           </div>
         </section>
       ))}
+      <div className={styles.cartButtonBottomContainer}>
+        <button className={styles.cartButtonLarge} onClick={() => navigate('/order')}>
+          Cart 🛒
+        </button>
+      </div>
     </div>
   );
 };

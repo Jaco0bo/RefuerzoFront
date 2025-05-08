@@ -1,0 +1,126 @@
+.container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  font-family: 'Cinzel', serif;
+  background-color: #f7f9fc;   
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filters input,
+.filters select {
+  padding: 0.5rem;
+  border: 1px solid #ccd0d5;
+  border-radius: 4px;
+}
+
+.ordersList {
+  margin-bottom: 2rem;
+}
+
+.orderCard {
+  background: #ffffff;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #e2e6ea;
+}
+
+.cart {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e6ea;
+}
+
+.fullSetButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;       
+  margin-bottom: 1rem;
+}
+
+.customAdd {
+  margin-top: 1rem;
+}
+
+.customAdd select {
+  margin-right: 0.5rem;
+  padding: 0.4rem;
+  border: 1px solid #ccd0d5;
+  border-radius: 4px;
+}
+
+.cartItems {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background: #fafbfd;
+  border-radius: 6px;
+  border: 1px solid #e2e6ea;
+}
+
+.cartItemImage {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.confirmBox {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.status {
+  margin-top: 1rem;
+  color: #2f855a;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: 'Lato', sans-serif;
+}
+
+.btn:hover {
+  background-color: #357abd;
+}
+
+.btnDanger {
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btnDanger:hover {
+  background-color: #c53030;
+}
